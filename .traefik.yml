@@ -1,0 +1,9 @@
+---
+displayName: Request ID Header
+type: middleware
+import: github.com/jonnaylang101/TraefikRequestID
+summary: "injects a uuid into the X-Request-ID header"
+
+testData:
+  Headers:
+    X-Request-ID: "1234"
